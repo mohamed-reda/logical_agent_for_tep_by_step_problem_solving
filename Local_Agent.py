@@ -1,6 +1,8 @@
 from openai import OpenAI
 
+# add your own API key or your Local LLM
 client = OpenAI(base_url="URL")
+llm_name = "LLM name"
 
 
 # Create our own simple agent

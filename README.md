@@ -2,6 +2,9 @@
 
 This repository contains a Python implementation of a logical agent designed to solve problems step-by-step. The agent utilizes a system role and local reasoning capabilities to break down complex tasks into manageable steps, perform calculations, and provide reasoned answers.
 
+**Note**:
+This agent is designed to be run locally with a suitable LLM, I used Gemma3_it, so feel free to use a different LLM or use OpenAI API.(the project won't work until you add the LLM configuration in the `Local_Agent.py` file)
+
 ## **Example Session:**
 
 ![img.png](img.png)
